@@ -1,0 +1,11 @@
+server:
+  context-path: /demo
+spring:
+  profiles:
+    active: dev
+  session:
+      store-type: none
+  application:
+    name: demo
+mybatis: 
+  mapperLocations: classpath:mapper/**/*Mapper.xml
